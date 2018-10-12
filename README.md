@@ -1,6 +1,6 @@
-###Introducción a Dockerfile, sintaxis y comandos básicos para construir y correr un contenedor Docker
+### Introducción a Dockerfile, sintaxis y comandos básicos para construir y correr un contenedor Docker
 
-####Alcance de la charla:
+#### Alcance de la charla:
 - Describir las instrucciones básicas  para construir un Dockerfile
 - Crear un ejemplo con flask/python
 
