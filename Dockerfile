@@ -5,6 +5,8 @@ ARG ROOT_APP=/project
 ARG PORT=5000
 ENV PORT=${PORT}
 
+RUN apk update & apk add curl vim
+
 LABEL mantainer=kr.rdz.20@gmail.com \
       version=1.0 \
       date=12-10-2018
