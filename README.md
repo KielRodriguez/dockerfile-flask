@@ -1,3 +1,8 @@
+###Introducción a Dockerfile, sintaxis y comandos básicos para construir y correr un contenedor Docker
+
+####Alcance de la charla:
+- Describir las instrucciones básicas  para construir un Dockerfile
+- Crear un ejemplo con flask/python
 
 #### FROM
 
@@ -9,7 +14,6 @@ FROM <image> [AS <name>]
 FROM <image>[:<tag>] [AS <name>]
 ```
 #### ARG
-
 
 #### ENV
 
@@ -33,7 +37,12 @@ LABEL <key>=<value> <key>=<value> <key>=<value> ...
 
 #### WORKDIR
 
+
 #### ADD
+La instrucción ADD permite agregar archivos o directorios desde el contexto a la construcción de la imagen.
+```
+ADD [--chown=<user>:<group>] <src>... <dest>
+```
 
 #### COPY
 
