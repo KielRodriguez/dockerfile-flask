@@ -1,0 +1,6 @@
+.env.example
+environment/
+.gitignore
+.dockerignore
+Dockerfile
+Procfile
